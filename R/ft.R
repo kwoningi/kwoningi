@@ -16,7 +16,7 @@ player <- function(a, b) {
   }
 
   x <- vcos(theta)t
-  y <- vsin(theta)t - 0.5gt^2
+  y <- vsin(theta)t - 0.5*gt^2
 
   x <- x[y >= 0]
   y <- y[y >= 0]
