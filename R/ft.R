@@ -2,7 +2,7 @@
 library(ggplot2)
 
 # Set arbitrary time & Gravitational acceleration
-t <- seq(0, 100, 0.1)
+t <- c(1,2)
 g <- 9.8
 
 player <- function(a, b) {
@@ -26,3 +26,4 @@ player <- function(a, b) {
 }
 
 player(200, 1)
+
